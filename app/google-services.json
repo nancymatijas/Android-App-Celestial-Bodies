@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500844403003",
+    "project_id": "final-955ad",
+    "storage_bucket": "final-955ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500844403003:android:0b03c07b11d32c796c7f1e",
+        "android_client_info": {
+          "package_name": "hr.ferit.nancymatijas.androidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500844403003-735spohnb6gdj5a9s13f7s27bmt6g83k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKwpMhMQbhVdf7IwWfyFQy1dnvAH3Vgdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500844403003-735spohnb6gdj5a9s13f7s27bmt6g83k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

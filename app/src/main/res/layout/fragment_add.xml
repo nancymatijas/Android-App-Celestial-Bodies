@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".AddFragment">
+
+
+    <ImageButton
+        android:id="@+id/backwardButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/primary"
+        android:src="@drawable/ic_baseline_navigate_before_24"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="490dp"
+        android:backgroundTint="@color/secondary"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray"
+
+            />
+
+        <EditText
+            android:id="@+id/inputGalaxy"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/galaxy"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray" />
+
+        <EditText
+            android:id="@+id/inputGravity"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/gravity"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray" />
+
+        <EditText
+            android:id="@+id/inputDistance"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/distance"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray" />
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/text"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray" />
+
+        <EditText
+            android:id="@+id/inputImgUrl"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/light_gray"
+            android:backgroundTint="@color/white"
+            android:hint="@string/url"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/dark_gray" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="410dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/save_button"
+            android:textColor="@color/secondary" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

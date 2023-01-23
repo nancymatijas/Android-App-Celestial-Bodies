@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Galaxy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Enter planet name</string>
+    <string name="save_button">Save</string>
+    <string name="img_url">Enter image URL</string>
+    <string name="galaxy">Enter name of the Galaxy</string>
+    <string name="gravity">Enter gravity</string>
+    <string name="distance">Enter distance from the Sun</string>
+    <string name="text">Enter text about planet</string>
+    <string name="url">Enter image URL</string>
+</resources>

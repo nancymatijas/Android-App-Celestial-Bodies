@@ -1,2 +1,2 @@
-## Naziv projekta
+## Naziv projekta:
 # Android aplikacija - Nebeska tijela

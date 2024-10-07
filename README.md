@@ -1,2 +1,2 @@
 ## Naziv projekta:
-# Android aplikacija - Nebeska tijela
+# Mobilna (Android) aplikacija - Nebeska tijela
